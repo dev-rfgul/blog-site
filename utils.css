@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+:root{
+    --main-bg-color:brown;
+    --font1 : 'Roboto', sans-serif;
+    --font2 : 'Ubuntu', sans-serif;
+    
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-1{
+    max-width: 80vw;
+}
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+        margin: auto;
+}
+.mx-1{
+    margin-right:23px ;
+    margin-left:23px ;
+}
+.my-2{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.btn{
+    padding: 7px 10px;
+    margin: 0px 4px;
+    border: 2px solid;
+    border-color: black;
+    border-radius: 7px;
+    font-family: var(--font1);
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    color: white;
+   
+    background-color: rgb(179, 179, 235);
+}
+.form-input{
+    padding: 10px 08px;
+   
+    margin: 0px 20px;
+    border: 2px solid black;
+    border-radius: 9px;
+    font-family: var(--font1);
+    font-size: 16px;
+
+    
+
+}
+
+.form-box input ,textarea{
+    width: 50vw;
+    margin: 5px  ;
+    font-size: 16px;
+    padding: 7px 03px ;
+    font-family: var(--font1);
+    border: 2px solid goldenrod;
+    border-radius: 5px;
+    /* overflow: hidden; */
+}
